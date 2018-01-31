@@ -19,8 +19,8 @@
     <string name="q5a1">Łotwa</string>
     <string name="q5a2">Szwecja</string>
     <string name="q5a3">Dania</string>
-    <string name="scoreText">Twój wynik to <xliff:g id="number" example="6">%d</xliff:g>.\n
-        <xliff:g id="howgood" example="good job">%s</xliff:g></string>
+    <string name="scoreText">Twój wynik to <xliff:g id="number" example="6">%1$d</xliff:g>.\n
+        <xliff:g id="howgood" example="good job">%2$s</xliff:g></string>
     <string name="submit">Zapisz</string>
     <string name="reset">Resetuj wyniki</string>
     <string name="dobetter">Stać Cię na więcej!</string>

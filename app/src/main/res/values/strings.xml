@@ -1,6 +1,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Hockey Quiz</string>
-    <string name="introduction">Hi! Thanks for trying out my quiz :) All question are related to
+    <string name="introduction">Hi! Thanks for trying out my quiz :) All questions are related to
         hockey, enjoy!</string>
     <string name="q1">Question 1</string>
     <string name="q1d">Which team won last Stanley Cup?</string>
@@ -29,5 +29,5 @@
     <string name="dobetter">You can do better!</string>
     <string name="gj">Good job!</string>
     <string name="exj">Excellent job!</string>
-    <string name="scoreText">Your score is <xliff:g id="number" example="6">%d</xliff:g>.\n<xliff:g id="howgood" example="good job">%s</xliff:g></string>
+    <string name="scoreText">Your score is <xliff:g id="number" example="6">%1%d</xliff:g>.\n<xliff:g id="howgood" example="good job">%2$s</xliff:g></string>
 </resources>
