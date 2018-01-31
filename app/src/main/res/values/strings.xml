@@ -1,0 +1,33 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Hockey Quiz</string>
+    <string name="introduction">Hi! Thanks for trying out my quiz :) All question are related to
+        hockey, enjoy!</string>
+    <string name="q1">Question 1</string>
+    <string name="q1d">Which team won last Stanley Cup?</string>
+    <string name="q1a1" translatable="false">Pittsburgh Penguins</string>
+    <string name="q1a2" translatable="false">Washington Capitals</string>
+    <string name="q1a3" translatable="false">Nashville Predators</string>
+    <string name="q2">Question 2</string>
+    <string name="q2d">Jaromir Jarg during his long career didn\'t play in:</string>
+    <string name="q2a1" translatable="false">Boston Bruins</string>
+    <string name="q2a2" translatable="false">Toronto Maple Leafs</string>
+    <string name="q2a3" translatable="false">New York Rangers</string>
+    <string name="q3">Question 3</string>
+    <string name="q3d">Which of the following countries won Olympic Gold Medal in hockey(men)?</string>
+    <string name="q3a1">Great Britain</string>
+    <string name="q3a2">Czech Republic</string>
+    <string name="q3a3">Finland</string>
+    <string name="q4">Question 4</string>
+    <string name="q4d">Type the home town of this club</string>
+    <string name="q5">Question 5</string>
+    <string name="q5d">Which country will host 2018 Ice Hockey World Championship?</string>
+    <string name="q5a1">Latvia</string>
+    <string name="q5a2">Sweden</string>
+    <string name="q5a3">Denmark</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="dobetter">You can do better!</string>
+    <string name="gj">Good job!</string>
+    <string name="exj">Excellent job!</string>
+    <string name="scoreText">Your score is <xliff:g id="number" example="6">%d</xliff:g>.\n<xliff:g id="howgood" example="good job">%s</xliff:g></string>
+</resources>

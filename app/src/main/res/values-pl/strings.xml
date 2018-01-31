@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Hokejowy Quiz</string>
+    <string name="introduction">Cześć, dzięki za udział w moim quizie :) Wszystkie pytania mają
+        związek z hokejem, miłej zabawy!</string>
+    <string name="q1">Pytanie 1</string>
+    <string name="q1d">Który zespół jako ostatni wygrał Puchar Stanley\'a?</string>
+    <string name="q2">Pytanie 2</string>
+    <string name="q2d">Jaromir Jagr podczas swojej długiej kariery nie grał w zespole:</string>
+    <string name="q3">Pytanie 3</string>
+    <string name="q3d">Które z poniższych zespołów wygrały złoty medal olimpijski w hokeju (mężczyzn)?</string>
+    <string name="q3a1">Wielka Brytania</string>
+    <string name="q3a2">Czechy</string>
+    <string name="q3a3">Finlandia</string>
+    <string name="q4">Pytanie 4</string>
+    <string name="q4d">Podaj miasto w którym gra ten klub</string>
+    <string name="q5">Pytanie 5</string>
+    <string name="q5d">Które państwo jest organizatorem Mistrzostw Świata w Hokeju Elity 2018?</string>
+    <string name="q5a1">Łotwa</string>
+    <string name="q5a2">Szwecja</string>
+    <string name="q5a3">Dania</string>
+    <string name="scoreText">Twój wynik to <xliff:g id="number" example="6">%d</xliff:g>.\n
+        <xliff:g id="howgood" example="good job">%s</xliff:g></string>
+    <string name="submit">Zapisz</string>
+    <string name="reset">Resetuj wyniki</string>
+    <string name="dobetter">Stać Cię na więcej!</string>
+    <string name="gj">Dobra robota!</string>
+    <string name="exj">Świetna robota!</string>
+</resources>
