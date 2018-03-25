@@ -8,4 +8,15 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="QuestionNumber" parent="AppTheme">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Question" parent="AppTheme">
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textColor">@color/secondaryText</item>
+    </style>
+
 </resources>

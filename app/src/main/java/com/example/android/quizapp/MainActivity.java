@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         ratingBar.setVisibility(View.VISIBLE);
         scoreTextView.setVisibility(View.VISIBLE);
 
-//        Float is nessecary if we want to divide by 2 (and we want if we have 10 (not 5) questions)
+//      Float would be usefull if the quiz will have 10 questions (but we would have only 5 stars)
         ratingBar.setRating((float) number);
         Log.i("quiz", "My star rating is " + (float) number);
 

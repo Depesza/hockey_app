@@ -22,19 +22,16 @@
             android:textColor="@color/secondaryText" />
 
         <TextView
+            style="@style/QuestionNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:text="@string/q1"
-            android:textColor="@color/primaryText"
-            android:textSize="16sp" />
+            android:text="@string/q1" />
 
         <TextView
+            style="@style/Question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:text="@string/q1d"
-            android:textColor="@color/secondaryText" />
+            android:text="@string/q1d" />
 
         <RadioGroup
             android:id="@+id/rbg1"
@@ -65,19 +62,16 @@
         </RadioGroup>
 
         <TextView
+            style="@style/QuestionNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:text="@string/q2"
-            android:textColor="@color/primaryText"
-            android:textSize="16sp" />
+            android:text="@string/q2" />
 
         <TextView
+            style="@style/Question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:text="@string/q2d"
-            android:textColor="@color/secondaryText" />
+            android:text="@string/q2d" />
 
         <RadioGroup
             android:id="@+id/rbg2"
@@ -105,19 +99,16 @@
         </RadioGroup>
 
         <TextView
+            style="@style/QuestionNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:text="@string/q3"
-            android:textColor="@color/primaryText"
-            android:textSize="16sp" />
+            android:text="@string/q3" />
 
         <TextView
+            style="@style/Question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:text="@string/q3d"
-            android:textColor="@color/secondaryText" />
+            android:text="@string/q3d" />
 
         <CheckBox
             android:id="@+id/q3a1"
@@ -138,19 +129,16 @@
             android:text="@string/q3a3" />
 
         <TextView
+            style="@style/QuestionNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:text="@string/q4"
-            android:textColor="@color/primaryText"
-            android:textSize="16sp" />
+            android:text="@string/q4" />
 
         <TextView
+            style="@style/Question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:text="@string/q4d"
-            android:textColor="@color/secondaryText" />
+            android:text="@string/q4d" />
 
         <ImageView
             android:id="@+id/photo_image_view"
@@ -167,19 +155,16 @@
             android:inputType="textMultiLine" />
 
         <TextView
+            style="@style/QuestionNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="16dp"
-            android:text="@string/q5"
-            android:textColor="@color/primaryText"
-            android:textSize="16sp" />
+            android:text="@string/q5" />
 
         <TextView
+            style="@style/Question"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="8dp"
-            android:text="@string/q5d"
-            android:textColor="@color/secondaryText" />
+            android:text="@string/q5d" />
 
         <RadioGroup
             android:id="@+id/rbg5"
