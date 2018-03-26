@@ -1,5 +1,6 @@
 package com.example.android.quizapp;
 
+import android.content.Context;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -81,11 +82,16 @@ public class MainActivity extends AppCompatActivity {
 
 //      Float would be usefull if the quiz will have 10 questions (but we would have only 5 stars)
         ratingBar.setRating((float) number);
-        Log.i("quiz", "My star rating is " + (float) number);
-
 
         int selected = r1.getCheckedRadioButtonId();
-        Log.i("quiz", "My star rating is " + selected);
+
+        // added toast
+        Context context = getApplicationContext();
+        CharSequence text = getString(R.string.scoreText, number, howGood(number));
+        int duration = Toast.LENGTH_SHORT;
+
+        Toast toast = Toast.makeText(context, text, duration);
+        toast.show();
 
     }
 
