@@ -29,5 +29,5 @@
     <string name="dobetter">You can do better!</string>
     <string name="gj">Good job!</string>
     <string name="exj">Excellent job!</string>
-    <string name="scoreText">Your score is <xliff:g id="number" example="6">%1%d</xliff:g>.\n<xliff:g id="howgood" example="good job">%2$s</xliff:g></string>
+    <string name="scoreText">Your score is <xliff:g id="number" example="6">%1$d</xliff:g>.\n<xliff:g id="howgood" example="good job">%2$s</xliff:g></string>
 </resources>

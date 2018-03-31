@@ -52,23 +52,23 @@ public class MainActivity extends AppCompatActivity {
         boolean q3a1Checked = q3a1.isChecked();
         boolean q3a2Checked = q3a2.isChecked();
         boolean q3a3Checked = q3a3.isChecked();
-        String q4a1Text = q4a1.getText().toString().toLowerCase();
+        String q4a1Text = q4a1.getText().toString().toLowerCase().trim();
         boolean q5a3Checked = q5a3.isChecked();
 
         if (q1a1Checked) {
-            score = score + 1;
+            score += 1;
         }
         if (q2a2Checked) {
-            score = score + 1;
+            score += 1;
         }
         if (q3a1Checked & q3a2Checked & (!q3a3Checked)) {
-            score = score + 1;
+            score += 1;
         }
         if (q4a1Text.equals("ottawa")) {
-            score = score + 1;
+            score += 1;
         }
         if (q5a3Checked) {
-            score = score + 1;
+            score += 1;
         }
         displayScore(score);
     }
@@ -82,8 +82,6 @@ public class MainActivity extends AppCompatActivity {
 
 //      Float would be usefull if the quiz will have 10 questions (but we would have only 5 stars)
         ratingBar.setRating((float) number);
-
-        int selected = r1.getCheckedRadioButtonId();
 
         // added toast
         Context context = getApplicationContext();
